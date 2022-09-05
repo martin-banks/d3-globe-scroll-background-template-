@@ -1,0 +1,92 @@
+[
+  {
+    "kicker": false,
+    "title": false,
+    "type": "splash",
+    "splash": {
+      "title": "Main title<br />over two decks",
+      "intro": "This should be used for the first 'scene'",
+      "image": { "src": "placeholder", "alt": "", "width": 200, "type": "splash" }
+    },
+    "text": false,
+    "images": false,
+    "autorotate": true,
+    "map": {
+      "country": "indonesia",
+      "scale": 0.2,
+      "focus": false,
+      "highlights": [],
+      "points": false
+    }
+  },
+
+  {
+    "kicker": "Kicker above the scene title",
+    "title": "Main card title",
+    "text": [
+      "Main text or caption for the scene.",
+      "Each string in this array is it's own paragraph"
+    ],
+    "image": { "src": "placeholder", "alt": "", "width": 400, "type": "inset" },
+    "map": {
+      "country": "australia",
+      "scale": 0.5,
+      "focus": ["thailand"],
+      "highlights": [ "indonesia" ],
+      "points": [
+        {
+          "geometry": {
+            "type": "Point",
+            "coordinates": [144.93576049804688, -37.815208598896234]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "kicker": "Kicker: Second scene",
+    "title": "Main card title",
+    "text": [
+      "Main text or caption for the scene.",
+      "Each string in this array is it's own paragraph"
+    ],
+    "image": { "src": "placeholder", "alt": "", "width": 400, "type": "inset" },
+    "map": {
+      "country": "peru",
+      "scale": 0.4,
+      "focus": ["peru"],
+      "highlights": [],
+      "points": [
+        {
+          "geometry": {
+            "type": "Point",
+            "coordinates": [144.93576049804688, -37.815208598896234]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "kicker": "Kicker: Third scene",
+    "title": "Main card title",
+    "text": [
+      "Main text or caption for the scene.",
+      "Each string in this array is it's own paragraph"
+    ],
+    "image": { "src": "placeholder", "alt": "", "width": 400, "type": "inset" },
+    "map": {
+      "country": "united kingdom",
+      "scale": 0.8,
+      "focus": ["united kingdom"],
+      "highlights": [ "france", "germany" ],
+      "points": [
+        {
+          "geometry": {
+            "type": "Point",
+            "coordinates": [144.93576049804688, -37.815208598896234]
+          }
+        }
+      ]
+    }
+  }
+]
